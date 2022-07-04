@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url(./qingbao-meng-01_igFr7hd4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.content {
+    color: white;
+    width: 450px;
+    text-align: center;
+    margin: auto;
+    padding-top: 120px;
+}
+
+.big-title {
+    font-size: 70px;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 25px;
+}
+
+.title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+.button {
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 180px;
+    height: 30;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 50px;
+}
+
+.button:hover {
+    background-color: white;
+    border: 0.5px solid blueviolet;
+    color: blueviolet;
+}
